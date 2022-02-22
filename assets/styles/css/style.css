@@ -1,0 +1,70 @@
+hr {
+  margin: 5% 0;
+}
+
+.style {
+  display: inline-block;
+  border-radius: 5px;
+  background: #666;
+  color: white;
+  padding: 5px;
+}
+
+.style .example {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navbar {
+  background: #000;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: inherit;
+  padding: 16.5px;
+}
+
+.navbar ul li a:hover {
+  background: #333;
+}
+
+.navbar button {
+  background: #54bc4c;
+  border: none;
+  color: #fff;
+}
+
+form {
+  height: 30vh;
+  padding: 5px;
+  display: inline-block;
+  background: #999;
+  border-radius: 5px;
+}
+
+form input {
+  background: #333;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

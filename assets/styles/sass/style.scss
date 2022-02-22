@@ -1,0 +1,66 @@
+hr {
+  margin: 5% 0;
+}
+
+// -----lev1_2-----
+.style {
+  display: inline-block;
+  border-radius: 5px;
+  background: #666;
+  color: white;
+  padding: 5px;
+
+  .example {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+
+// -----lev2_3-----
+.navbar {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    padding: 0;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        padding: 16.5px;
+
+        &:hover {
+          background: #333;
+        }
+      }
+    }
+  }
+
+  button {
+    background: #54bc4c;
+    border: none;
+    color: #fff;
+  }
+}
+
+// -----lev2_4-----
+form {
+  height: 30vh;
+  padding: 5px;
+  display: inline-block;
+  background: #999;
+  border-radius: 5px;
+
+  input {
+    background: #333;
+    color: white;
+  }
+}
