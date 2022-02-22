@@ -1,3 +1,7 @@
+.lesson {
+  text-align: center;
+}
+
 hr {
   margin: 5% 0;
 }
@@ -17,45 +21,40 @@ hr {
   border-radius: 5px;
 }
 
-.navbar {
-  background: #000;
+ul {
+  background: #333;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.navbar ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0;
 }
 
-.navbar ul li {
+ul li {
   list-style: none;
+  padding: 0.75rem;
 }
 
-.navbar ul li a {
-  text-decoration: none;
-  color: inherit;
-  padding: 16.5px;
-}
-
-.navbar ul li a:hover {
-  background: #333;
-}
-
-.navbar button {
+ul li:last-of-type {
   background: #54bc4c;
   border: none;
   color: #fff;
+  margin-left: auto;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.75rem;
 }
 
 form {
+  width: 99%;
   height: 30vh;
   padding: 5px;
   display: inline-block;
